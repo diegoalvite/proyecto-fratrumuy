@@ -1,12 +1,44 @@
 /* Estilo de la pagina */
-body {
+* {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+p {
+   font-family: 'Times New Roman', Times, serif;
+   color: rgb(26, 17, 17);
+   font-weight: bold;
+   
 }
 header {
     background-color:rgb(39, 39, 251);
     color: #fff;
     padding: 20px;
     text-align: center;
+}
+header h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #333;
+    transition: 0.2s;
+}
+header h1:hover{
+    color: #ff0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+nav a{
+    color:rgb(0, 0, 0) ;
+    margin: 0 20px;
+    text-decoration: solid;
+}
+nav a:hover {
+    text-decoration:underline;
 }
