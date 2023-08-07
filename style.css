@@ -15,10 +15,12 @@ p {
    
 }
 header {
-    background-color:rgb(39, 39, 251);
-    color: #fff;
-    padding: 20px;
+    background-image: url(img/imagen\ titulo.jpg);
+    background-size: cover;
+    background-position: center;
     text-align: center;
+    text-decoration: underline;
+    color: #fff;
 }
 header h1 {
     font-size: 50px;
@@ -35,7 +37,7 @@ nav {
     margin-top: 20px;
 }
 nav a{
-    color:rgb(0, 0, 0) ;
+    color:rgb(255, 255, 255) ;
     margin: 0 20px;
     text-decoration: solid;
 }
