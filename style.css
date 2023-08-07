@@ -10,7 +10,8 @@ html{
 
 p {
    font-family: 'Times New Roman', Times, serif;
-   color: rgb(26, 17, 17);
+   font-size: 50px;
+   color: rgb(0, 17, 248);
    font-weight: bold;
    
 }
@@ -20,7 +21,7 @@ header {
     background-position: center;
     text-align: center;
     text-decoration: underline;
-    color: #fff;
+    color: #fcda00;
 }
 header h1 {
     font-size: 50px;
@@ -28,7 +29,7 @@ header h1 {
     transition: 0.2s;
 }
 header h1:hover{
-    color: #ff0;
+    color: rgb(0, 255, 42);
 }
 /*poner alineados los menus*/
 #link li {
@@ -42,8 +43,63 @@ header h1:hover{
 link{
     text-align: center;
 }
-
-nav {
+/* Presentation styles */
+.presentacion {
+    background-image: url("img/imagen\ titulo.jpg");
+    background-size:contain;
+    text-align: center;
+    color: #fcda00;
+    font-weight: bold;
+    text-emphasis-style:initial;
+    padding: 100px 0;
+  }
+  /* Main section styles */
+main {
+    padding: 40px;
+  }
+  
+  /* Contact form styles */
+  .contenedor-form {
+    background-color: #f9f9f9;
+    padding: 40px;
+  }
+  
+  .btn-enviar {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    header {
+      text-align: center;
+    }
+  
+    #nav {
+      display: none;
+    }
+  
+    #nav.active {
+      display: block;
+    }
+  
+    #nav li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  nav {
     display: flex;
     justify-content: center;
     margin-top: 20px;
