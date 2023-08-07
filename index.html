@@ -22,8 +22,8 @@
         <nav id="nav" class="">
           <ul id="link">
             <li><a href="#inicio">INICIO</a></li>
-            <li><a href="¿QUIENES SOMOS?">¿Quienes somos?</a></li>
-            <li><a href="trabajos">TRABAJOS</a></li>
+            <li><a href="#quienes-somos">¿Quienes somos?</a></li>
+            <li><a href="#trabajos">TRABAJOS</a></li>
             <li><a href="#contacto">CONTACTO</a></li>
           </ul>
         </nav>
@@ -52,21 +52,88 @@
       </div>
     </header>
     <!--aca queremos poner los contenidos en los menus de la barra principal-->
+    <div class="presentacion">
+      <p class="bienvenida">Bienvenidos</p>
+      <h2>
+        Somos <span>FRATRUM</span>,nos motiva la pasion por los negocios en el
+        ambito Inmobiliario
+      </h2>
+      <p class="descripcion">
+        Somos un grupo de amigos emprendedores, que trabajan con pensamientos y
+        propuestas en común, para luego materializarlas en nuestros cometidos.
+      </p>
+      <a href="#inicio">Ir a INICIO</a>
+    </div>
     <main>
       <section id="inicio">
-        Bienvenidos a nuestro emprendimiento, somos FRATRUM, nos motiva la
-        pasion por los Negocios en el ambito Inmobiliario,......
+        Bienvenidos a nuestro emprendimiento, <span>somos FRATRUM</span> , nos
+        motiva la pasion por los Negocios en el ambito Inmobiliario,......
       </section>
       <section id="¿Quienes somos?">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quia magni
-        nisi eligendi asperiores animi quos. Magni, nisi ea maiores ex totam
-        sunt vero ipsum animi a nemo, architecto obcaecati.
+        <div class="contenedor-foto">
+          <img src="img/Fratrum Logo.jpg" alt="" />
+        </div>
+        <div class="quienesomos">
+          <p class="titulo-seccion">Referente a nostros</p>
+          <h2>Hola, soy <span>Marcelo PEREZ</span></h2>
+          <h3>Catador de glandes y analstacios</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+            culpa! Itaque sequi iure, laboriosam.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+            aut laborum ipsum, adipisci sed.
+          </p>
+          <a href="#quienes-somos">¿Quienes somos?</a>
+        </div>
       </section>
       <section id="trabajos">
         <!--colocar imagenes y descripciones de los trabajos-->
+        <h3 class="titulo-seccion">TRABAJOS</h3>
+        <div class="fila">
+          <div class="trabajos">
+            <span class="icono"><i class="bi bi-bricks"></i></span>
+            <h4>Peñarol 1</h4>
+            <hr />
+            <ul class="trabajos-tag">
+              <li>Peñarol 2</li>
+              <li>Brazo Oriental</li>
+              <li>otro lugar</li>
+              <li>otro lugar</li>
+              <li>otro lugar</li>
+            </ul>
+            <p>construcciones de 0, remodelaciones, etc.</p>
+          </div>
+        </div>
       </section>
       <section id="contacto">
         <!--poner los diferentes tipos de contactos-->
+        <h3 class="titulo-seccion">Contactame</h3>
+        <div class="contenedor-form">
+          <form action="">
+            <div class="fila mitad">
+              <input type="text" placeholder="Nombre" class="input-mitad" />
+              <input type="text" placeholder="Apellido" class="input-mitad" />
+              <input type="text" placeholder="Email" class="input-mitad" />
+            </div>
+            <div class="fila">
+              <input type="text" placeholder="Asunto" class="input-full" />
+            </div>
+            <div class="fila">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Mensaje"
+                class="input-full"
+              ></textarea>
+            </div>
+
+            <input type="submit" value="Enviar Mensaje" class="btn-enviar" />
+          </form>
+        </div>
       </section>
     </main>
     <footer>
@@ -75,27 +142,28 @@
         reservados.
       </p>
       <!--aca ponemos los link a whatsapp,facebook y instagram-->
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/tu_pagina" target="_blank"
-            ><i class="fab fa-facebook"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://api.whatsapp.com/send?phone=+1tu_numero"
-            target="_blank"
-            ><i class="fab fa-whatsapp"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/tu_pagina" target="_blank"
-            ><i class="fab fa-instagram"></i
-          ></a>
-        </li>
-      </ul>
+      <div class="redes">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/tu_pagina" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://api.whatsapp.com/send?phone=+1tu_numero"
+              target="_blank"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/tu_pagina" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
     </footer>
-
     <!--aca linkeo el script-->
     <script src="script.js"></script>
   </body>

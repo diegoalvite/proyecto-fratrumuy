@@ -30,6 +30,18 @@ header h1 {
 header h1:hover{
     color: #ff0;
 }
+/*poner alineados los menus*/
+#link li {
+    display: inline;
+}
+
+#link li a:hover{
+    color: rgb(21, 0, 255);
+}
+
+link{
+    text-align: center;
+}
 
 nav {
     display: flex;
